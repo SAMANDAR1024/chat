@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Chat App</h2>
+            <button id="changeNameBtn">Change Name</button>
+        </div>
+        
+        <div class="chat-box" id="chatBox">
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button class="btn1" id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <div class="name-change-popup" id="nameChangePopup">
+        <div class="popup-content">
+            <h3>Enter New Name</h3>
+            <input type="text" id="newName" placeholder="Your new name">
+            <button id="saveNameBtn">Save</button>
+            <button id="closePopupBtn">Close</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
